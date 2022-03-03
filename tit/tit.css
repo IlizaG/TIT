@@ -1,0 +1,135 @@
+html,
+body,
+#map {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto',sans-serif;
+
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./mesange.svg);
+    background-repeat:no-repeat;
+    background-position: center 14%;
+    background-color: #302d29;
+  }
+
+   
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+
+   
+  .row {margin: 0 -5px;}
+
+   
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 0.5em;
+  }
+
+  a.button4{
+display: inline-block;
+margin: 0 0.1em 0.1em 0;
+border: 0.16em solid rgba(255,255,255,0);
+border-radius: 0.5em;
+box-shadow: 2px 2px 3px grey;
+padding: calc(2vh - 1vw);
+font-size: calc(2vh - 0.7vw);
+text-decoration: none;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #FFFFFF;
+text-shadow: 0 0.04em 0.04em rgb(0 0 0 / 35%);
+text-align: center;
+transition: all 0.2s;
+  }
+  a.button4:hover {
+  border-color: rgba(255,255,255,1);
+  }
+/*
+  @media all and (max-width:30em){
+   a.button4{
+    display:block;
+    margin:0.2em auto;
+   }
+  }
+*/
+.column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    a.button4{
+        font-size: calc(3vh - 0.5vw);
+        }    
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    a.button4{
+    font-size: calc(3vh - 0.5vw);
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+.column {
+      width: 25%;
+      display: block;
+      margin-bottom: 5px;
+    }
+    body {
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(/img/mesange.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-color: #302d29;
+background-size: 41%;
+}
+}
+
+@media only screen and (min-width: 992px){ 
+.column {
+      width: 20%;
+      display: block;
+      margin-bottom: 5px;
+    }
+    a.button4{
+      padding: 10px;
+      font-size: 1.5em;
+    }
+    body {
+      background-size: 47%;
+background-position-y: bottom;
+}
+}

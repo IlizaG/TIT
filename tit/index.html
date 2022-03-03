@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="tit.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <h1>Кормушка №<span id="number"></span></h1>
+          <p>
+            Вы попали на эту страницу отсканировав qr-код на нашей кормушке для
+            птиц
+          </p>
+          <p>
+            Тут действия которые помогут птицам оставшимся зимовать у нас
+            пережить зиму и дать потомство.
+          </p>
+          <p>
+            Волонтеры из <a href="https://rfrk.ru">фонда </a> пополняют
+            кормушки, покупают семена, а так же отмечают на сайте когда это
+            произошло. Вы тоже можете поучаствовать.
+          </p>
+          <p>
+            Вопросы и предложения принимаем на почту регионального фонда
+            <a href="mailto:rfrk26@gmail.com"
+              >Развития курортов и гражданских инициатив</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2>Насыпать корм</h2>
+          <p>В холодный период важно добавлять семена и зерна постоянно</p>
+          <a
+            id="add"
+            href="#"
+            class="button4"
+            style="background-color: #4ef18f"
+            >Пополнил кормом</a
+          >
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h2>Кормушка пуста</h2>
+          <p>
+            Если вы видете, что корм закончился, сообщите и волонтер наполнит.
+          </p>
+          <a
+            id="empted"
+            href="#"
+            class="button4"
+            style="background-color: #f14e4e"
+          >
+            Пополнить кормушку
+          </a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2>Подробно о проекте</h2>
+          <p>
+            Проект запущен фондом <a href="https://rfrk.ru"> РФРК </a> на
+            общественных началах
+          </p>
+          <a
+            id="more"
+            href="#more"
+            class="button4"
+            style="background-color: #4e9af1"
+            >Подробнее</a
+          >
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2>Кормушка рядом</h2>
+          <p>Ближайшая кормушка совсем не далеко.</p>
+          <a id="prev" href="" class="button4" style="background-color: #9a4ef1"
+            >&lt;&lt;&lt;</a
+          >
+          <a id="next" href="" class="button4" style="background-color: #f14ebd"
+            >>>></a
+          >
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2>Кормушки на карте</h2>
+          <p>Посмотреть все кормушки на карте.</p>
+          <a href="#map" class="button4" style="background-color: #f1bb4e"
+            >Открыть на карте</a
+          >
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <h2>Дать денег</h2>
+          <p>Вы можете перевести от 10 рублей на покупку и новые кормушки.</p>
+          <a
+            href="https://rfrk.ru"
+            class="button4"
+            style="background-color: #84f14e"
+            >Поддержать рублём</a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="map"></div>
+    <div id="more">Поподробнее вскоре</div>
+  </body>
+  <script
+    src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c1564056-15e8-45bb-aa5c-a91fde9a6560"
+    type="text/javascript"
+  ></script>
+  <script src="tit.js"></script>
+
+</html>
